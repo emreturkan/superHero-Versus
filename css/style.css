@@ -1,0 +1,147 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 2rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #3a81ec;
+}
+
+#firsthero, #secondhero {
+  width: 400px;
+  height: 700px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#firsthero #firstform, #firsthero #secondform, #secondhero #firstform, #secondhero #secondform {
+  margin-bottom: 50px;
+}
+
+#firsthero #firstform input, #firsthero #secondform input, #secondhero #firstform input, #secondhero #secondform input {
+  padding: 0.5rem 1rem;
+  outline: none;
+  border-radius: 8px;
+  font-size: 24px;
+}
+
+#firsthero .hero, #secondhero .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: red;
+  color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#firsthero .hero .hero-img, #secondhero .hero .hero-img {
+  height: 400px;
+}
+
+#firsthero .hero .hero-img img, #secondhero .hero .hero-img img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+#firsthero .hero .hero-body, #secondhero .hero .hero-body {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#firsthero .hero .hero-body h2, #secondhero .hero .hero-body h2 {
+  font-size: 35px;
+}
+
+#firsthero .hero .hero-body h4, #secondhero .hero .hero-body h4 {
+  margin-top: -10px;
+  font-size: 24px;
+}
+
+#versus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 600px;
+}
+
+#versus button {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  outline: none;
+  background-color: red;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#end {
+  position: absolute;
+  max-height: 700px;
+  bottom: -500px;
+}
+
+#end .end-card {
+  background-color: red;
+  color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#end .end-card .win-hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#end .end-card .win-hero .win-body {
+  text-align: center;
+}
+
+#end .end-card .win-hero .win-body h2 {
+  font-size: 30px;
+}
+
+#end .end-card .win-hero .win-body h4 {
+  font-size: 30px;
+}
+/*# sourceMappingURL=style.css.map */
